@@ -1,0 +1,59 @@
+/* Put your custom styles here */
+
+#logo {
+    font-size:30px;
+    padding-top:30px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border: 2px #F6F7F8 solid;
+}
+
+#search {
+    position: absolute;
+    top: 8px;
+}
+
+.filter-php
+{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 60px 0;
+    text-align: center;
+}
+
+.filter-php li
+{
+    display: inline-block;
+    margin: 0;
+}
+
+.filter-php li:before
+{
+    display: inline-block;
+    content: "/";
+    padding: 0 25px 0 19px;
+    color: rgba(0,0,0,0.20);
+}
+
+.filter-php li:first-child:before
+{
+    display: none;
+}
+
+.filter-php li a
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+.filter-php li a:hover,
+.filter-php li a:focus,
+.filter-php li a.active
+{
+    color: #1ABC9C;
+    text-decoration: none;
+}
